@@ -1,0 +1,33 @@
+/* mà hình điện thoại */
+@media (max-width: 576px) {
+  #certificate .contain {
+    display: inline-block;
+  }
+  .contain img {
+    margin-bottom: 48px;
+  }
+  .certificate-img {
+    width: 100%;
+  }
+  .line {
+    display: none;
+  }
+  .cer-web,
+  .cer-javascrip {
+    border-bottom: 1px solid #d6c08d;
+    border-right: none;
+    padding: 24px;
+  }
+  .cer-javascrip {
+    margin-left: 0;
+  }
+  /* project */
+  #project .container {
+    display: grid;
+    grid-template-columns: 100vw;
+    gap: 24px;
+  }
+  .container img {
+    width: 100vw;
+  }
+}

@@ -1,0 +1,17 @@
+/* màn hình laptop */
+@media (min-width: 992px) {
+  #certificate .contain {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 24px;
+  }
+  .certificate-block {
+    display: inline-flex;
+  }
+  .certificate-img {
+    width: 225px;
+  }
+  .certificate-sub ul {
+    margin-left: -24px;
+  }
+}
